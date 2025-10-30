@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripWorld</title>
+    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+</head>
+
+<body>
+    <header>
+        <div id="logo">TripWorld</div>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-checkbox" style="display: none;">
+            <label for="menu-checkbox" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul>
+                <li><a class="nav_home" href="/homePage/index.html">Home</a></li>
+                <li><a class="nav_des" href="/pages/Destination.html">Destinations</a></li>
+                <li><a class="nav_tour" href="/Tours/tours.html">Tours</a></li>
+                <li><a href="/pages/Contactus.html">Contact Us</a></li>
+                <li><a href="/pages/LogIn.html">LogIn</a></li>
+                <li><a href="/signup/singup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1 class="animate__animated animate__fadeInDown">TripWorld</h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1ms">
+                “Explore. Dream. Discover. Anywhere, anytime.”</p>
+            <div>
+                <button class="animate__animated animate__bounceIn animate__delay-2ms">
+                    <a href="/pages/Destination.html">Explore Destinations</a>
+                </button>
+            </div>
+        </section>
+
+        <section class="top_des">
+            <h2 class="animate__animated animate__fadeInLeft animate__delay-2ms">Unforgettable Tours</h2>
+            <div class="des_cards">
+                <div class="card animate__animated animate__zoomIn animate__delay-2ms">
+                    <img src="/homepage/images/paris.jfif" alt="Paris">
+                    <h3>Paris, France</h3>
+                    <p><i>The city of lights and love.</i></p>
+                    <div><button><a href="/Tours/tours.html">See details</a></button></div>
+                </div>
+                <div class="card animate__animated animate__zoomIn animate__delay-3ms">
+                    <img src="/homepage/images/tokyo.jpg" alt="Tokyo">
+                    <h3>Tokyo, Japan</h3>
+                    <p><i>A blend of tradition and modernity.</i></p>
+                    <button><a href="/Tours/tours.html">See details</a></button>
+                </div>
+                <div class="card animate__animated animate__zoomIn animate__delay-4ms">
+                    <img src="/homepage/images/london_img.jpg" alt="London">
+                    <h3>London, United Kigdom</h3>
+                    <p class="london_p"><i>The City of Royal Charm and Timeless History.</i></p>
+                    <button><a href="/Tours/tours.html">See details</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="tours">
+            <h2 class="animate__animated animate__fadeInRight animate__delay-3ms">Top Destinations</h2>
+            <div class="des_cards">
+                <div class="card animate__animated animate__fadeInUp animate__delay-3ms">
+                    <img src="/Book/Image/redFort.jfif" alt="New York">
+                    <h3>Red Fort, Delhi</h3>
+                    <button><a href="/pages/Destination.html">See details</a></button>
+                </div>
+                <div class="card animate__animated animate__fadeInUp animate__delay-4ms">
+                    <img src="/Book/Image/tajMahalM.jfif" alt="Los Angeles">
+                    <h3>Taj Mahal, Agra</h3>
+                    <button><a href="/pages/Destination.html">See details</a></button>
+                </div>
+                <div class="card animate__animated animate__fadeInUp animate__delay-5ms">
+                    <img src="/Book/Image/qutubMInar.jfif" alt="Venice">
+                    <h3>Qutub Minar, Delhi</h3>
+                    <button><a href="/pages/Destination.html">See details</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact animate__animated animate__zoomIn animate__delay-5ms">
+            <h2>Contact Us</h2>
+            <div class="details">
+                <div>
+                    <p>📞 <a href="tel:+919876543210">+91 9826624796</a></p>
+                </div>
+                <div>
+                    <p>📧 <a href="mailto:info@tripworld.com">info@tripworld.com</a></p>
+                </div>
+                <div>
+                    <p>📍 Office: 12A, Travel Plaza, Connaught Place, New Delhi, India</p>
+                </div>
+            </div>
+        </div>
+        <div class="social_links animate__animated animate__zoomIn animate__delay-5ms">
+            <h2>Follow us:</h2>
+            <div class="socials">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">X</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+        <div class="newsletter animate__animated animate__zoomIn animate__delay-m5s">
+            <form>
+                <h2><label for="email">Subscribe for latest deals & travel tips:</label></h2>
+                <br><br><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                <button type="submit"><a href="/Thankyou/thankyou.html">Subscribe</a></button>
+            </form>
+        </div>
+        <div class="copy">
+            <div>
+                <p class="copy_right">&copy; 2024 TripWorld. All rights reserved.</p>
+            </div>
+            <div class="go_top"><a href="#logo"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
